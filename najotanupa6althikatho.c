@@ -14,3 +14,25 @@ int main()
     }
   }
     return 0;}
+
+    #include<stdio.h>
+int main ()
+{
+    int i,b,c;
+    for(i=1;i<=3;i++)
+    {
+        for (b=1;b<=3;b++)
+        
+        {   if(b!=i)
+            for(c=1; c<=3;c++)
+            {  if( c!=b && c!=i)
+            {
+                printf("hello");
+        printf("%d %d %d\n",i,b,c);
+            }
+            }
+        }
+    }
+    }
+    return 0;
+}
