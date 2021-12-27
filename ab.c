@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    printf("hello guys, what's up");
+    float b=1.3232;
+    printf("%f",b);
+    printf("\nhello guys, whats up =\n5\a");
     return 0;
 }
